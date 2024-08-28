@@ -1,0 +1,27 @@
+.contact form input,
+.contact form textarea {
+  border-radius: 5px;
+  width: 500px;
+  justify-content: center;
+  display: flex;
+
+}
+
+.contact form button {
+  background-color: #007bff;
+  color: white;
+}
+.invalid-feedback {
+  display: block;
+}
+
+.form-control.is-invalid {
+  border-color: #dc3545;
+}
+
+.form-control.is-valid {
+  border-color: #28a745;
+}
+label{
+  text-align: start;
+}

@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #121212; /* Dark background color */
+    color: #ffffff; /* Light text color */
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 768px) {
+    .skills .progress-bar {
+      width: 100% !important;
+    }
+  }
+  

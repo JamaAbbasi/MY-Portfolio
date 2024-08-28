@@ -1,0 +1,32 @@
+.about-me-page {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .header h2 {
+    font-size: 1.5rem;
+    color: #e9ecee; /* Muted color */
+  }
+  .text-muted {
+    color: #fdfdfd !important; /* Adjust the color as needed */
+  }
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+  
+  .bounce {
+    animation: bounce 2s infinite;
+  }

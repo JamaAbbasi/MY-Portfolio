@@ -1,0 +1,66 @@
+/* education.component.css */
+.education-page {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.timeline {
+  position: relative;
+  margin-top: 20px;
+}
+
+.timeline:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #007bff;
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.timeline-item .date {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  background-color: #007bff;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 50px;
+  z-index: 1;
+}
+
+.timeline-item .content {
+  background-color: #273a4d;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+}
+
+.timeline-item .content h4 {
+  font-weight: bold;
+}
+
+.timeline-item:nth-child(even) .date {
+  left: auto;
+  right: 50%;
+  transform: translateX(50%);
+}
+.degree{
+    color: #faf9f9;
+    
+}

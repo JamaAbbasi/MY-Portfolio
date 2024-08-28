@@ -1,0 +1,14 @@
+:host{
+    display: block;
+    background-color: var(--black);
+}
+.navbar-brand{
+    color:wheat;
+}
+.nav-item{
+    text-align: center;
+}
+.nav-item:hover{
+color: #fcfafa;
+cursor: pointer;
+}

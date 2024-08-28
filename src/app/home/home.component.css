@@ -1,0 +1,98 @@
+/* :host{
+  display: block;
+  padding: 4rem 2rem 6rem;
+  background-color:var(--dark--gray) ;
+  
+} */
+.title{
+  font-size: larger;
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.animate__animated{
+  font-size: larger;
+  font-weight: bolder;
+}
+.background-container {
+  background-image: url('/assets/bg3.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full height */
+  width: 100%;   /* Full width */
+}
+.profile-bg{
+width: 100px;
+height: 100px;
+}
+.rounded-border {
+  border: 5px solid #fefefe; /* Adjust border color and width */
+}
+.typewriter-text {
+  font-family: monospace;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 0.15em solid;
+  animation: typing 1.5s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: black; }
+}
+
+.typing-container {
+  display: inline-block;
+  font-family: monospace;
+  white-space: nowrap;
+  overflow: hidden; /* Hides the text overflow */
+  border-right: 3px solid rgb(246, 246, 246); /* Cursor effect */
+  animation: blink-caret 0.90s step-end infinite;
+}
+
+@keyframes typing {
+  0% {
+    width: 50%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(246, 246, 246);
+  }
+}
+
+.text-animation {
+  display: inline-block;
+  animation: typing 4s steps(30, end) infinite, blink-caret 0.75s step-end infinite;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+
+.text-animation span {
+  display: inline-block;
+  animation: typing 4s steps(30, end) infinite, erase 4s steps(30, end) 4s infinite;
+}
+
+@keyframes erase {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
